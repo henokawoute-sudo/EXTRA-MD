@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return String(text).toLowerCase() === String(fault).toLowerCase();
 }
 
-module.exports = {
+module.exports = {Ice~l7NkaS
     // 🔐 SESSION
     SESSION_ID: process.env.SESSION_ID || "",
 
