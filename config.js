@@ -5,9 +5,9 @@ function convertToBool(text, fault = 'true') {
     return String(text).toLowerCase() === String(fault).toLowerCase();
 }
 
-module.exports = {Ice~l7NkaS
+module.exports = {
     // 🔐 SESSION
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "Ice~l7NkaS",
 
     // 👀 STATUS FEATURES
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // true/false
